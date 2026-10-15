@@ -27,6 +27,7 @@ public class Main extends Application {
 			
 			Scene scene = new Scene(root);
 			scene.getStylesheets().add(getClass().getResource("/main/resources/css/application.css").toExternalForm());
+			primaryStage.setTitle("RISP");
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch(Exception e) {
